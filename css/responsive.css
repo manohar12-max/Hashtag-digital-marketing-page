@@ -1,0 +1,89 @@
+
+@media(max-width:1300px){
+    /* navbar */
+.header-wrapper .menu-navbar-nav{
+   width:auto;
+}
+}
+@media(max-width:1230px){
+    /* navbar */
+.header-wrapper .nav-item{
+   margin: 0 5px;
+
+}
+.header-wrappper .learn-more-btn{
+    padding:12px 10px !important;
+}
+/* banner */
+.banner-wrapper .banner-title{
+    font-size: 50px;
+}
+}
+@media(max-width:1070px){
+      /* navbar */
+.header-wrapper .navbar-nav .nav-item .nav-link{
+    font-size: 16px ;
+}
+/* about */
+.about-wrapper .about-title{
+font-size: 16px;
+
+}
+}
+@media(max-width:991px){
+      /* navbar */
+    .header-wrapper .navbar-brand img{
+        width:180px;
+    }
+    .header-wrapper .menu-navbar-nav{
+        text-align: center;
+
+    }
+    .header-wrapper .navbar-toggler:focus{
+        box-shadow: none;
+    }
+    .header-wrapper .nav-item .nav-link{
+            margin-top: 15px;
+           font-size: 18px  !important;
+    }
+    .header-wrapper .nav-item:last-child .nav-link{
+        margin-bottom: 20px;
+      
+}
+.header-wrapper .learn-more-btn{
+    padding: 12px 29px !important;
+}
+.header-wrapper .navbar-collapse{
+    background: white;
+}
+.banner-wrapper .banner-title{
+    font-size: 36px;
+}
+/* about */
+.about-wrapper .about-number{
+     margin: 20px auto;
+}
+.about-wrapper .about-title{
+    font-size: 25px;
+}
+}
+
+@media(max-width:767px){
+    /* banner */
+    .banner-wrapper{
+        padding:100px 0 100px;
+    }
+   .banner-wrapper .row{
+    flex-direction:column-reverse ;
+   }
+   .banner-wrapper .learn-more-btn-section{
+    justify-content: center;
+   }
+   .faq_wrapper .accordion-button{
+    font-size: 18px;
+   }
+   /* footer */
+   .footer_wrapper .footer_logo img{
+    max-width: 50%;
+   } 
+}
